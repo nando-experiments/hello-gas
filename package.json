@@ -1,0 +1,19 @@
+{
+  "name": "hello-gas",
+  "version": "1.0.0",
+  "description": "Hello Google Apps Scripts",
+  "main": "index.ts",
+  "dependencies": {
+    "@google/clasp": "^2.1.0",
+    "@types/google-apps-script": "0.0.42"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "push": "clasp push",
+    "watch": "clasp push --watch",
+    "test": "echo \"no has tests\" && exit 0"
+  },
+  "keywords": [],
+  "author": "Fernando Moreira <nandomoreira.me@gmail.com> (https://nandomoreira.me/)",
+  "license": "MIT"
+}
